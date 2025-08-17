@@ -1,3 +1,4 @@
+// https://codeforces.com/contest/153/problem/D
 int intToDay(int jd) { return jd % 7; }
 int dateToInt(int y, int m, int d) {
   return 1461 * (y + 4800 + (m - 14) / 12) / 4 +
