@@ -1,0 +1,576 @@
+1. What is Programming?
+2. Intro to C++ and Setting up the Environment
+3. Data Types, Variables and Input Output
+4. Operators
+5. Conditional Statements
+6. Loops
+7. Functions
+8. Arrays
+9. Strings
+10. Pointers and References
+11. Structures
+12. What is Competitive Programming?
+13. Bitwise Operations and Bitmasks
+14. Big O Notation and Time and Space Complexity Analysis
+15. Fast Input Output
+16. Recursion
+17. Divisors
+18. GCD and LCM
+19. Harmonic Number
+20. Prefix Sum
+21. Prefix XOR
+22. Intro to STL, Containers and Iterators
+23. Pairs and Tuples
+24. Vector
+25. Stack
+26. Queue
+27. Priority Queue
+28. Deque
+29. Set, Unordered Set and Multiset
+30. Map and Unordered Map
+31. Bitset
+32. List / Linked List
+33. Binary Search
+34. Two Pointers
+35. Bubble Sort
+36. Selection Sort
+37. Insertion Sort
+38. Counting Sort
+39. Merge Sort
+40. Quick Sort
+41. Radix Sort
+42. C++ STL Sort and Custom Comparator
+43. Divide and Conquer
+44. Basic Greedy Algorithms
+45. Basic Constructive Algorithms
+46. 2D Prefix Sum
+47. Difference Array
+48. Sliding Window Technique
+49. Bit Manipulation
+50. The XOR Trick
+51. Binary Exponentiation and Basic Modular Arithmetic
+52. Fermat's Little Theorem and Modular Inverse
+53. Permutations, Combinations and Basic Counting Problems
+54. Stars and Bars
+55. Pigeonhole Principle
+56. Introduction to Graphs | Definitions and Representations
+57. Segment Tree (Point Update Range Query)
+58. Segment Tree with Lazy Propagation
+59. Persistent Segment Tree
+60. Persistent Segment Tree with Lazy Propagation
+61. 2D Segment Tree
+62. Dynamic Segment Tree
+63. 2D Dynamic Segment Tree
+64. Merge Sort Tree
+65. Iterative Segment Tree
+66. Segment Tree Merging
+67. Segment Tree Beats
+68. XOR Segment Tree
+69. Historic Information on Segment Trees
+70. BIT / Fenwick Tree
+71. Lower bound on BIT
+72. BIT with Range Update and Range Query
+73. 2D BIT
+74. 2D BIT with Range Update and Range Query
+75. Sparse Table
+76. Sparse Table 2D
+77. Disjoint Sparse Table
+78. Trie on Strings and Bits
+79. Persistent Trie
+80. DSU / Union Find
+81. DSU with Rollbacks
+82. Reachability Tree / DSU Tree / Kruskal Reconstruction Tree (KRT)
+83. Partially Persistent DSU
+84. Persistent DSU
+85. Augmented DSU / Weighted DSU
+86. DSU on Tree and Small to Large Merging
+87. [Trick] Maintaining Log N DSU / Range Parallel DSU
+88. Basic SQRT Decomposition
+89. Splitting Objects into Light and Heavy / Case Processing
+90. Batch Processing / SQRT Decomposition on Queries
+91. SQRT Decomposition Split and Build Technique
+92. SQRT Fragmented Tree / Block Tree / SQRT Decomposition on Trees
+93. Mo's Algorithm
+94. Rollback Mo and Mo's with DSU
+95. Mo's on Tree
+96. Sweepline Mo
+97. Mo's with Update / 3D Mo (Offline)
+98. Mo's with Update / 3D Mo (Online)
+99. 4D Mo
+100. Heavy Light Decomposition (HLD) ft Subtrees and Path Query
+101. Centroid Decomposition
+102. Persistent Centroid Decomposition
+103. Long Path Decomposition
+104. Binary Search Tree (BST)
+105. Treap
+106. Implicit Treap
+107. Persistent Treap
+108. Rope
+109. Splay Tree
+110. Link Cut Tree (LCT)
+111. Euler Tour Tree (ETT)
+112. Top Tree / AAA Tree
+113. Link Cut Cactus
+114. Ordered Set
+115. GP Hash Table
+116. Wavelet Tree
+117. Cartesian Tree
+118. K-Dimensional Tree (KD Tree)
+119. SQRT Tree
+120. Permutation Tree
+121. PQ Tree
+122. Dynamic Connectivity Problem (Offline)
+123. Dynamic Connectivity Problem (Online) / HDLT Algorithm
+124. Monotonic Stack: All Nearest Smaller Values and All Subarray Maximum/Minimum
+125. Monotonic Queue
+126. Monotonic Queue 2D
+127. Monotonic Deque
+128. Interval Set
+129. Persistent Array
+130. Persistent Queue
+131. Persistent Meldable Heap / Leftist Heap
+132. Venice Technique
+133. Offline Queries
+134. Static to Dynamic Trick / Log Decomposition
+135. Divide and Conquer on Queries
+136. CDQ Divide and Conquer
+137. Queue Undo Trick
+138. Priority Queue Undo Trick
+139. Depth First Search (DFS)
+140. Breadth First Search (BFS)
+141. DFS Tree
+142. Topological Sorting
+143. Tree Diameter
+144. Euler Tour Technique
+145. Inverse Graph
+146. Binary Lifting and LCA
+147. LCA in O(1)
+148. Strongly Connected Components (SCC)
+149. Incremental SCC
+150. Articulation Bridges and Bridge Tree
+151. Online Articulation Bridges
+152. Articulation Points and Block Cut Tree
+153. Three Edge Connectivity
+154. Four Edge Connectivity
+155. Dynamic K-Connectivity
+156. Ear Decomposition
+157. Strong Orientation
+158. ST-numbering / Bipolar Orientation
+159. Minimum Spanning Tree (MST) - Prim's and Kruskal's
+160. Steiner Tree Problem
+161. Boruvka's Algorithm
+162. Minimum Diameter Spanning Tree
+163. Manhattan MST
+164. Euclidean MST
+165. Directed MST
+166. Dynamic MST
+167. Kirchoffs Theorem ft Number of MSTs
+168. Dijkstra's Algorithm
+169. [Trick] Dijkstra on Segment Tree
+170. Floyd Warshall
+171. Bellman Ford
+172. Shortest Path Faster Algorithm (SPFA)
+173. Johnson's Alogrithm
+174. 0/1 BFS
+175. Dial's algorithm
+176. Eppsteins Algorithm
+177. Suurballe's Algorithm
+178. A* Algorithm
+179. Cycle Detection
+180. [Problem] Minimum Weight Cycle For Each Vertex
+181. [Problem] Minimum Weight Cycle For Each Edge
+182. Minimum Mean Weight Cycle
+183. Number of 3 and 4 length Cycles
+184. Virtual Tree / Auxiliary Tree
+185. Rerooting Technique
+186. Union of Two Paths on a Tree
+187. Intersection of Two Paths on a Tree
+188. [Problem] Number of Paths of Each Length in a Tree
+189. Dynamic Online Tree Diameter
+190. [Problem] Tree Orientation to Maximize Pairs of Reachable Nodes
+191. 2 SAT
+192. 3 SAT
+193. System Of Difference Constraints
+194. Eulerian Path and Cycle
+195. Hamiltonian Path and Cycle
+196. Hamiltonian Path Heuristic Algorithm
+197. Maximum Clique
+198. Maximum Independent Set (MIS)
+199. Chromatic Number
+200. Welsh-Powell Algorithm
+201. Chromatic Polynomial ft Number of DAGs
+202. Edge Coloring of Simple Graph
+203. Edge Coloring of Bipartite Graph
+204. Counting Labeled Graphs
+205. Prufer Code
+206. [Problem] Number of Arborescences with n Nodes
+207. Tuttes Theorem ft Arborescences in a Graph
+208. BEST Theorem
+209. DAG Reachability
+210. Incremental DAG Reachability
+211. Dominator Tree
+212. Cactus Graph
+213. Tournament Graph
+214. Chordal Graph
+215. Maximum Flow / Minimum Cut
+216. Min Cost Max Flow (MCMF)
+217. Min Cost Max Flow with Negative Cycles
+218. Maximum Closure Problem
+219. L-R Flow
+220. Gomory-Hu Tree
+221. Gomory-Hu Tree of a Planar Graph
+222. Stoer Wagner Algorithm
+223. Chinese Postman Problem
+224. Uniqueness of Min Cut
+225. Maximum Density Subgraph
+226. Min Cut in a Planar Graph
+227. Max Cut in a Planar Graph
+228. Bipartite Matching (HopCroft Karp Algorithm and Kuhn's Algorithm)
+229. Hungarian Algorithm / Bipartite Weighted Matching
+230. Blossom Algorithm Unweighted / General Matching / Randomized General Matching
+231. Blossom Algorithm Weighted / General Weighted Matching
+232. Stable Marriage Problem
+233. Konig's Theorem and Maximum Independent Set in Bipartite Graphs
+234. Halls Theorem
+235. Matching using Determinants
+236. POSET ft Dilworth's and Mirsky's Theorem
+237. Functional Graphs
+238. Degree Sequences, Erdos-Gallai Theorem, Gale-Ryser Theorem and Havel–Hakimi Algorithm
+239. Tree Isomorphism
+240. Binarizing a Tree
+241. Planarity Check
+242. Sieve, Prime Factorization and Divisors
+243. Linear Sieve
+244. Segmented Sieve
+245. Sieve upto 1e9
+246. Miller-Rabin Primality Test
+247. Pollard Rho
+248. Prime Counting Function
+249. Prime Gap
+250. [Problem] Counting Numbers Having Exactly K Divisors
+251. [Problem] Smallest Number Having Exactly K Divisors
+252. Sum of The Number of Divisors in cbrt(n)
+253. Wilson's Theorem
+254. Implicit Prime Factorization
+255. Number of Divisors / Sum of Divisors / Sigma Function
+256. Euler's Totient Function / Phi Function
+257. Power Tower / Generalized Euler theorem
+258. Mobius Function and Mobius Inversion
+259. Dirichlet convolution
+260. Min_25 Sieve
+261. Powerful Number Sieve / PN Sieve
+262. Euclidean Algorithm
+263. Extended Euclid
+264. Bezout's Identity
+265. Chicken McNugget Theorem
+266. Linear Congruence Equation
+267. Chinese Remainder Theorem (CRT)
+268. Primitive Root
+269. Multiplicative Order and Carmichael's Lambda Function
+270. Discrete Log / Baby Step Giant Step
+271. Discrete Root
+272. Discrete Root in O(P^(1/4))
+273. Discrete Square Root, Tonelli Shanks Algorithm, Cipolla's Algorithm
+274. Number of Distinct Kth Powers Modulo N
+275. Number of Solutions to X^2 = 1 mod M
+276. Linear Diophantine Equation with Two Variables
+277. Linear Diophantine Equation with N Variables
+278. Trivariable Linear Diophantine Equation with Nonnegative Solutions
+279. Multivariable Linear Diophantine Equation with Nonnegative Solutions
+280. Linear Diophantine With N Unknowns and Two Equations
+281. Number of Solutions to a Basic Linear Algebraic Equation
+282. Number of Solutions to a Basic Linear Algebraic Equation using Meet in the Middle
+283. Number of Nonnegative Integer Solutions to ax + by ≤ c
+284. Number of Integer Solutions to 1/x + 1/y = 1/k
+285. Two / Three / Four Squares Theorem
+286. Pell's Equation
+287. Sum of Floors
+288. Floor Sum and Mod Sum of Arithmetic Progression
+289. Generalized Floor Sum of Arithmetic Progression
+290. Fibonacci Numbers
+291. [Problem] LCM of Fibonacci Numbers
+292. Pisano Period
+293. Phi Field
+294. Pythagorean Triplets
+295. [Problem] Min of Mod of Arithmetic Progression
+296. Sqrt Decomposition of Mod of Arithmetic Progression
+297. Factorial Number System
+298. Stern-Brocot Tree and Rational Approximation
+299. [Problem] Number of a * x mod p in a Range
+300. [Problem] Smallest Nonnegative Integer x s.t. l ≤ a * x mod p ≤ r
+301. Contribution Technique
+302. Product Trick
+303. Catalan Numbers
+304. Catalan Convolution
+305. Principle of Inclusion and Exclusion (PIE)
+306. Derangements
+307. Inclusion Exclusion on Multiples
+308. Lucas Theorem
+309. nCr Modulo Any Mod
+310. Large Factorials and Binomial Coefficients
+311. Legendre's Formula
+312. Prefix Sum Queries of Binomial Coefficients
+313. Prefix Sum of Binomial Coefficients for a Fixed Large N
+314. Sum of nCr Over a Fixed Congruence Class
+315. [Problem] Sum of nCr(a[i], K) for each K from 1 to N
+316. Stirling Numbers (Basic)
+317. Stirling Number of the First Kind for Fixed N
+318. Stirling Number of the First Kind for Fixed K
+319. Stirling Number of the Second Kind for Fixed N
+320. Stirling Number of the Second Kind for Fixed K
+321. Partitions of an Integer, Partition Function and Pentagonal Number Theorem
+322. Partitions of a Set / Bell Number
+323. Burnside's Lemma / Polya Enumeration Theorem
+324. Bertrand's Ballot Theorem
+325. Young Tableaus and the Hook Length Formula
+326. Fast Fourier Transform (FFT)
+327. Number Theoretic Transform (NTT)
+328. 2D FFT / NTT
+329. Online FFT / NTT
+330. Fast Walsh Hadamard Transform (FWHT) and its Variations
+331. GCD Convolution
+332. LCM Convolution
+333. Generating Functions
+334. Polynomial Inverse
+335. Polynomial Exp
+336. Polynomial Log
+337. Polynomial Pow
+338. Polynomial Sqrt
+339. Polynomial Composition
+340. Multipoint Evaluation
+341. Chirp Z Transform
+342. Polynomial Interpolation
+343. Polynomial Shift
+344. Shift of Sampling Points of Polynomial
+345. Polyomial Division and Remainder
+346. Polynomial Roots Under a Modulo
+347. Resultant of Two Polynomials and Half-GCD Algorithm
+348. Lagrange Interpolation
+349. [Problem] Sum of r^i * poly(i)
+350. Polynomial with Binomial Coefficients
+351. Subset Sum Problem using Generating Functions
+352. Polynomial Factorization of (x^n - 1) and Cyclotomic Polynomials
+353. Schwartz–Zippel Lemma
+354. Lagrange Inversion Theorem
+355. Matrix Exponentiation
+356. Permanent of a Matrix
+357. Freivald's Algorithm
+358. Vandermonde Matrix
+359. Hafnian of a Matrix / Number of Perfect Matchings in a Graph
+360. Frobenius Form of a Matrix and Fast Matrix Power
+361. Linear Recurrence Relations
+362. Linear Recurrence using Cayley-Hamilton Theorem in O(N^2 log K)
+363. Linear Recurrence using Generating Functions in O(N log N log K)
+364. Linear Recurrence with Polynomial Coefficients
+365. Linear Recurrence on Matrices
+366. Generating Function of a Linear Recurrence
+367. Berlekamp Massey
+368. Reeds-Sloane Algorithm
+369. Gaussian Elimination
+370. Gaussian Elimination Modulo 2
+371. Determinant of a Matrix
+372. Determinant under Composite Modulo
+373. Characteristic Polynomial and Hesserberg Matrix
+374. [Problem] Determinant of Product Matrix
+375. Determinant of Sparse Matrix and Black Box Linear Algebra
+376. [Problem] Determinant of Permutant and Circulant Matrix
+377. GCD Determinant / Smith's Determinant
+378. Cauchy–Binet formula
+379. Inverse of a Matrix
+380. Inverse of a Matrix modulo 2
+381. Thomas Algorithm
+382. Vector Space and XOR Basis
+383. [Technique] XOR Basis ft Reduced Row Echelon Form
+384. [Technique] XOR Basis ft Lexicographically Largest Basis
+385. XOR Basis with Deletions (Online)
+386. q Binomial
+387. Gauss's Eureka Theorem
+388. Titu's Lemma
+389. Lifting-the-exponent(LTE) Lemma
+390. Faulhaber's Formula and Bernoulli Numbers
+391. Differentiation and Integration
+392. Line Integral
+393. Probabilities and Expected Values
+394. Expected Value Powers Technique
+395. The Slime Trick
+396. Expected Occurrence Time as Substring
+397. Gambler's Ruin
+398. Martingale
+399. Lagrange Multiplier
+400. Linear Programming / Simplex Algorithm
+401. Duality in Linear Programming (LP <> Flow)
+402. Dinkelbach Algorithm
+403. Continued Fractions
+404. Polynomial Real Roots
+405. Finite Field Arithmetic Binary
+406. Knuth Morris Pratt (KMP) and Prefix Automaton
+407. Z Algorithm
+408. String Matching using Bitsets
+409. String Matching with FFT ft Wildcard Matching
+410. String Hashing
+411. 2D String Hashing
+412. XOR Hashing
+413. Multiset Hashing
+414. Aho Corasick
+415. Dynamic Aho Corasick
+416. Suffix Array
+417. Isomorphic Suffix Array
+418. Dynamic Suffix Array
+419. Suffix Automaton
+420. [Problem] Distinct Substring Queries in Range
+421. Suffix Tree
+422. Palindromic Tree / Eertree
+423. Persistent Palindromic Tree
+424. Manachers Algorithm
+425. [Problem] Minimum Palindrome Factorization
+426. [Problem] Number of Palindromes in Range
+427. Longest Common Subsequence (LCS)
+428. All Substring Longest Common Subsequence
+429. Bit LCS
+430. Cyclic LCS
+431. LCS on RLE compressed string
+432. Balanced Brackets
+433. Expression Parsing
+434. Lyndon Factorization / Duval Algorithm
+435. Finding Repetitions / Main-Lorentz Algorithm
+436. De Bruijn Sequence
+437. Knapsack and Basic Dynamic Programming
+438. Knapsack and Subset Sum Optimizations
+439. Digit DP
+440. Divide and Conquer Optimization
+441. Knuth Optimization
+442. Aliens Trick / WQS Binary Search
+443. 1D1D DP Optimization
+444. DP Optimization using Data Structures [Some Practice Problems]
+445. Convex Hull Trick (CHT) and Dynamic CHT
+446. Persistent CHT
+447. Li Chao Tree
+448. Persistent Li Chao Tree
+449. Extended Li Chao tree
+450. Bitmask DP
+451. Sum Over Subsets DP (SOS DP)
+452. [Problem] Subset Union of Bitsets
+453. Subset Convolution
+454. [Trick] Dynamic Submask Count
+455. [Problem] XOR Equation
+456. Open and Close Interval Trick
+457. Slope Trick
+458. x2 +1 Trick
+459. Combining Subtrees Technique
+460. Longest Increasing Subsequence (LIS)
+461. Interval DP / Range DP / Matrix Chain Multiplication (MCM)
+462. Edit Distance
+463. DP on Trees and DAGs
+464. DP over Divisors
+465. Substring DP
+466. DP on Convex Hulls
+467. Connected Component DP
+468. Broken Profile DP / Plug DP
+469. Hirschberg's Algorithm
+470. [Problem] Number of Subsequences Having Product at least K
+471. [Problem] Range LIS Query
+472. Grundy Number and Basic Game Theory
+473. Nimber
+474. Green Hackenbush on Trees and Graphs
+475. Blue Red HackenBush
+476. Games on Arbitrary Graphs
+477. [Problem] Matching Game On A Graph
+478. Alpha Beta Pruning
+479. Euclidean Geometry
+480. Points, Vectors, Transformations, Dot Products, Cross Products, Precision Issues and Polar Sort(2D)
+481. Lines, Segments, Rays, Distance and Relation Between Two Structures, Projections and Reflections(2D)
+482. Circles, Circle Relations, Intersections, Inscribed Circles and Circumcircles(2D)
+483. Tangents(2D)
+484. Circles of Apollonius(2D)
+485. Circle Union(2D)
+486. Polygons(2D)
+487. Centroid of a Polygon(2D)
+488. Geometric Median(2D)
+489. Convex Hull(2D)
+490. Point in Convex Polygon in log(N)(2D)
+491. Winding Number and Point in Simple Polygon(2D)
+492. Extreme Vertex(2D)
+493. Rotating Calipers ft Diameter and Width of a Convex Polygon and Minimum Enclosing Rectangle(2D)
+494. Minimum Enclosing Circle(2D)
+495. Polygon Line and Convex Line Intersection, and Polygon Cutting(2D)
+496. Tangents from Point to Convex and Convex to Convex(2D)
+497. Distance from Point to Convex, Convex to Line and Convex to Convex(2D)
+498. Maximum Distance from Convex to Convex(2D)
+499. Polygon Union(2D)
+500. Polygon Triangulation(2D)
+501. Maximum Circle Cover(2D)
+502. Maximum Inscribed Circle in a Convex(2D)
+503. Triangle Circle and Polygon Circle Intersection(2D)
+504. Points, Vectors, Dot Products, Cross Products and Mixed Products(3D)
+505. Planes(3D)
+506. Plane Based Coordinate System(3D)
+507. Lines, Segments, and Distances, Angles and Intersections Between Lines and Planes(3D)
+508. Triangles and Distance from Triangle to Triangle(3D)
+509. Spherical Geometry and Winding Number(3D)
+510. Minimum Enclosing Sphere(3D)
+511. Polyhedron, Pyramid, Cone and Cylinder(3D)
+512. Convex Hull(3D)
+513. Delaunay Triangulation and Voronoi Diagram
+514. Half Plane Intersection
+515. Dynamic Half Plane Intersection
+516. Minkowski Sum
+517. Dynamic Convex Hull
+518. Onion Decomposition / Convex Layers
+519. Picks Theorem
+520. Lattice Points inside a Non-Lattice Polygon
+521. Sweep Line Algorithm and Radial Sweep
+522. Closest Pair of Points
+523. Rectangle Union
+524. All Pair Segment Intersection
+525. Vertical decomposition
+526. Faces in Planar Graph
+527. Point Location
+528. Hill Climbing and Simulated Annealing
+529. [Trick] Linear Combination of Vectors
+530. Reflections on a Rectangle
+531. [Problem] Maximum Area of a Triangle from Given Lengths
+532. [Problem] Maximum Area of a Polygon using Given Lengths in CCW Order
+533. [Problem] Circle/Polygon Inclusion Tree
+534. Activity Selection Problem
+535. Fractional Knapsack Problem
+536. Huffman Coding
+537. Exchange Arguments
+538. Ternary Search
+539. Parallel Binary Search
+540. Fraction Binary Search
+541. Fracturing Search
+542. Interactive Problems
+543. Interactive Problems on Centroids
+544. Communication / Run-Twice Problems
+545. Permutations and Permutation Cycles
+546. [Problem] K-th Root of a Permutation
+547. Schreier–Sims Algorithm
+548. Matroid Intersection
+549. [Problem] Knight Moves in Infinity Grid
+550. [Problem] Knight's Tour Problem
+551. [Problem] Bishop Placement
+552. Coordinate Compression
+553. Direction Array
+554. Meet in the Middle
+555. Invariants and Monovariants
+556. Manhattan <> Chebyshev
+557. LCM OR Technique
+558. [Trick] Logarithmic Subarray Aggregator (LSA Trick)
+559. Bitwise Disjoint Partitioning
+560. [Trick] Efficient Non-Increasing Sequence Recovery of Length n with a[i] <= n/i
+561. Min Plus Convolution (Convex and Convex)
+562. SMAWK Algorithm and Min Plus Convolution (Convex and Arbitrary)
+563. Randomized Algorithms
+564. Birthday Paradox
+565. Big Integers
+566. Trygub Numbers
+567. Inversions
+568. Josephus Problem
+569. Gray Code
+570. Backtracking
+571. [Problem] MEX of all Subarrays
+572. Lindstrom Gessel Viennot(LGV) Lemma
+573. Dynamic Bitsets
+574. Pragmas
+575. Boyer–Moore Majority Voting Algorithm and Misra–Gries Algorithm
+576. Heavy Implementation Problems
