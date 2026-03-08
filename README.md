@@ -572,7 +572,7 @@ Tree-specific algorithm templates.
 
 ---
 
-## Workbook Creation
+## Workbook creation
 
 Utilities for creating problem sets and contest workbooks.
 
