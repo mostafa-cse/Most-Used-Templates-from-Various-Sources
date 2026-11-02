@@ -1,0 +1,153 @@
+{
+  "workbench.startupEditor": "none",
+
+  // Window
+  "window.commandCenter": false,
+
+  // coderunner
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+
+  // auto save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10,
+
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  // cursor
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // editor
+  "editor.fontSize": 18,
+  "editor.autoIndentOnPaste": false,
+
+  // add new - 06-10-25
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.autoIndent": "brackets",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.autoIndentOnPasteWithinString": true,
+  "editor.autoSurround": "languageDefined",
+  "editor.codeActions.triggerOnFocusChange": true,
+  "editor.mouseWheelZoom": true,
+  "editor.lineHeight": 25,
+  "editor.fontVariations": true,
+  "editor.fontWeight": "normal",
+  "editor.defaultColorDecorators": "always",
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.defaultModel": "indentationModel",
+  "editor.trimWhitespaceOnDelete": true,
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.find.globalFindClipboard": true,
+  "editor.emptySelectionClipboard": true,
+  "editor.guides.highlightActiveIndentation": "always",
+  "editor.inlineCompletionsAccessibilityVerbose": true,
+  "editor.linkedEditing": true,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.renderRichScreenReaderContent": true,
+  "editor.fastScrollSensitivity": 10,
+
+  // terminal
+  "terminal.integrated.sendKeybindingsToShell": true,
+
+  // files
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "": true,
+    "**/*.bin": true,
+    "**/*.class": true,
+    "**/*.cph": true,
+    "**/*.github": true,
+    "**/*.gitignore": true,
+    "**/*.json": true,
+    "**/*.log": true,
+    "**/*.o": true,
+    "**/*.out": true,
+    "**/*.py": true,
+    "**/*.txt": true,
+    "**/*.vscode": true,
+    "**/**.cpp": false,
+    "**/**.pages": true,
+    "**/*LICENSE": true,
+    "**/Refferal": true,
+    "tempCodeRunnerFile.java": true
+  },
+
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },  "git.enableSmartCommit": true,
+
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+  "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+  "C_Cpp.vcFormat.space.beforeComma": true,
+
+  "diffEditor.codeLens": true,
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-14",
+  "C_Cpp.default.compilerArgs": [
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk"
+  ],
+  "update.mode": "start",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true
+  },
+  "cph.general.defaultLanguage": "cpp",
+  "cph.language.cpp.Command": "/opt/homebrew/bin/g++-14",
+  "cph.language.cpp.Args": "-std=gnu++14 -O0 -pipe -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk",
+  "terminal.integrated.cursorBlinking": true,
+
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.vcFormat.space.withinSquareBrackets": false,
+  "C_Cpp.vcFormat.space.withinLambdaBrackets": false,
+  "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": false,
+  "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": false,
+  "C_Cpp.vcFormat.space.beforeOpenSquareBracket": false,
+  "C_Cpp.vcFormat.space.beforeEmptySquareBrackets": true,
+  "terminal.integrated.ignoreBracketedPasteMode": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.guides.bracketPairs": "active",
+  "chat.tools.terminal.autoApprove": {
+    "g++": true,
+    "./Problematic_Binary_String": true,
+    "clang++": true,
+    "pushd": true,
+    "./gaussian": true,
+    "popd": true
+  },
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "window.customTitleBarVisibility": "windowed",
+  "chat.editing.confirmEditRequestRemoval": false,
+  "debug.javascript.autoAttachFilter": "always",
+  "debug.javascript.breakOnConditionalError": true,
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.list.mouseWheelScrollSensitivity": 0,
+  "editor.mouseWheelScrollSensitivity": 0,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "phase",
+  "editor.hideCursorInOverviewRuler": true,
+  "explorer.confirmDragAndDrop": false,
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.useTerminal": true,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.xlsx": "docxxlsx.xlsxEditor"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "editor.minimap.enabled": false
+}
